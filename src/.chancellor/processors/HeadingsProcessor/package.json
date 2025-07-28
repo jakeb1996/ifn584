@@ -1,0 +1,8 @@
+{
+    "name": "headings-processor",
+    "version": "1.0.0",
+    "description": "IFN666 Headings Processor",
+    "author": "Jake Bradford",
+    "main": "HeadingsProcessor.js"
+  }
+  

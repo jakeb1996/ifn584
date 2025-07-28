@@ -1,0 +1,394 @@
+title: "IFN584 A01 Rubric"
+free_form_criterion_comments: False
+hide_score_total: False
+criteria:
+   - description: (API) Core - Application architecture
+     points: 1.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of npm. The codebase structure (files and directories) is intuitive. 
+          points: 1.0
+        - description: Half marks
+          long_description: Use of npm or directory/file naming is not entirely appropriate.
+          points: 0.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Core - Endpoints
+     points: 2.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of an Express for request routing, URL parametisation and queries, use of in-built middleware, and serving the application.
+          points: 2.0
+        - description: Half marks
+          long_description: Features of Express have been used, but there may be problems with the implementation or the approach is not entirely appropriate.
+          points: 1.0
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Core - Data model
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of Mongoose for data modeling, CRUD operations, field options (required, timestamps, defaults) and inter-document referencing.
+          points: 3.0
+        - description: Half marks
+          long_description: Mongoose has been used but there may be problems with the implementation or the approach is not entirely appropriate.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Core - Data interface
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Compotent and appropriate use of a layered architecture, including controllers, to connect API endpoints to business logic, which has been implemented faithfully and sensibly. 
+          points: 3.0
+        - description: Half marks
+          long_description: The application architecture, having controllers, has been used but there may be problems with the implementation or the approach is not entirely appropriate.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Core - Deployment to web server
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: The API has been deployed to the internet using the IFN666 web server and subdomain. Compotent and appropriate use of Caddy and systemd.
+          points: 3.0
+        - description: Half marks
+          long_description: The IFN666 web server, Caddy and systemd have been used but there may be problems with the implementation or the approach is not entirely appropriate.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Core - API testing with Hoppscotch
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use API testing tools, with a preference for Hoppscotch or similar. A collection has been generated.
+          points: 3.0
+        - description: Half marks
+          long_description: Hoppscotch, or alike, has been used but there remains further opportunity to benefit from such tools.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Authentication
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Application has a basic user login method (eg. username/password). Protected resources require a token. Unprotected resources remain functional whether logged in or not.
+          points: 3.0
+        - description: Half marks
+          long_description: Implementation problems that are of moderate severity.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Input validation
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and reasonable use of input validation.
+          points: 3.0
+        - description: Half marks
+          long_description: Input validation has been implemented but it needs further improvements.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Security
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of security mechanisms (excl. JWT and other efforts covered by "Core - Authentication"), like CORS, middleware (Helmet), etc.
+          points: 3.0
+        - description: Half marks
+          long_description: Some security features are present but further work is needed.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Rate limiting
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of rate limiting.
+          points: 3.0
+        - description: Half marks
+          long_description: Some rate limiting is present but further work is needed.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Query filtering
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of filtering to retrieve specific documents from the Mongo database.
+          points: 3.0
+        - description: Half marks
+          long_description: Query filtering has been implemented but there may be problems or the approach is not entirely appropriate.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Pagination
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of pagination across the entire technology stack (data layer, application layer and use of HTTP headers).
+          points: 3.0
+        - description: Half marks
+          long_description: Pagination has been implemented but there may be problems or the approach is not entirely appropriate.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Use of third-party APIs
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified use of third-party APIs. Expert implementation.
+          points: 3.0
+        - description: Half marks
+          long_description: Justified use of third-party APIs but implementations need improvements.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Role-based Access Control
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified use of role-based access control. Expert implementation.
+          points: 3.0
+        - description: Half marks
+          long_description: Justified use of role-based access control but implementations need improvements.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Custom middleware
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified use of custom middleware. Expert implementation.
+          points: 3.0
+        - description: Half marks
+          long_description: Justified use of custom middleware but implementations need improvements.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (API) Additional - Upon request
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified feature/technology that has been approved by the unit coordinator.
+          points: 3.0
+        - description: Half marks
+          long_description: Needs improvements.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented. Approval by the unit coordinator not presented.
+          points: 0.0
+   - description: (Client) Core - Application architecture
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of npm. The codebase structure (files and directories) is intuitive. 
+          points: 3.0
+        - description: Half marks
+          long_description: Use of npm or directory/file naming is not entirely appropriate.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Core - User interface design
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and reasonable user interface design. A components/style library has been used.
+          points: 3.0
+        - description: Half marks
+          long_description: The UI design needs further work. Use of UI frameworks could be better considered.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Core - React components
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and reasonable development of bespoke React components.
+          points: 3.0
+        - description: Half marks
+          long_description: Implementation of bespoke React components needs further work.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Core - State management
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and reasonable use of state management.
+          points: 3.0
+        - description: Half marks
+          long_description: Implementation problems or inappropriate state management.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Core - API integration
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and reasonable use of the REST API. Use of third-party APIs is via the server.
+          points: 3.0
+        - description: Half marks
+          long_description: Implementation problems with the client interacting with the REST API.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Authentication
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Application has a basic user login method (eg. username/password). Protected resources require a token. Unprotected resources remain functional whether logged in or not.
+          points: 3.0
+        - description: Half marks
+          long_description: Implementation problems that are of moderate severity.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Input validation
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and reasonable use of input validation.
+          points: 3.0
+        - description: Half marks
+          long_description: Input validation has been implemented but it needs further improvements.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Rate limiting
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified rate limiting on the client-side.
+          points: 3.0
+        - description: Half marks
+          long_description: Rate limiting has been attempted but needs further work.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Search and Sort
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified search and sort of UI elements and use of client-side versus server-side processing.
+          points: 3.0
+        - description: Half marks
+          long_description: Search and/or sort has been implemented but needs further work, or the distinction/use of client-side versus server-side processing does not make sense.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Pagination
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified pagination of UI elements and use of client-side versus server-side processing.
+          points: 3.0
+        - description: Half marks
+          long_description: Pagination has been implemented but needs further work, or the distinction/use of client-side versus server-side processing does not make sense.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Accessibility
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified use of accessibility technologies/features to improve the experience of the web application.
+          points: 3.0
+        - description: Half marks
+          long_description: Accessibility features are present but further work is needed.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Advanced UI design
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified design of novel UI elements that are outstanding.
+          points: 3.0
+        - description: Half marks
+          long_description: Justified design of novel UI elements but they need further work.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Responsive design
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified approach to responsive web design. The application remains functional across various screen sizes (excluding a consideration for mobile devices).
+          points: 3.0
+        - description: Half marks
+          long_description: Justified approach to responsive web design but needs further improvements.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented.
+          points: 0.0
+   - description: (Client) Additional - Upon request
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified feature/technology that has been approved by the unit coordinator.
+          points: 3.0
+        - description: Half marks
+          long_description: Needs improvements.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented. Approval by the unit coordinator not presented.
+          points: 0.0

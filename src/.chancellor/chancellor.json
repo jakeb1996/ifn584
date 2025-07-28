@@ -1,0 +1,238 @@
+{
+  "name": "src",
+  "run": {
+    "render": [
+      "markdown-to-html"
+    ],
+    "canvas-deploy": [
+      "canvas-upload"
+    ]
+  },
+  "stylesheets": [
+    ".chancellor/code-github.css",
+    ".chancellor/styles.css"
+  ],
+  "blocks": [],
+  "inlineBlocks": [],
+  "variables": [],
+  "workflows": [
+    {
+      "name": "markdown-to-html",
+      "description": "Converts markdown to HTML with inline CSS",
+      "processors": [
+        "VariablesProcessor",
+        "InlineBlockProcessor",
+        "CommonMarkProcessor",
+        "LocalMathsProcessor",
+        "InlineStyleProcessor"
+      ]
+    },
+    {
+      "name": "canvas-upload",
+      "description": "Render .md to .html and upload to Canvas.",
+      "processors": [
+        "VariablesProcessor",
+        "InlineBlockProcessor",
+        "CommonMarkProcessor",
+        "headings-processor",
+        "InlineStyleProcessor",
+        "ImageResolveProcessor",
+        "FileLinkProcessor",
+        "PageLinkProcessor",
+        "CanvasDeployProcessor"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "name": "Staff Only",
+      "pages": [
+        "staff_only/chancellor.md"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "About assessments",
+      "pages": [
+        "assessments/100_oo-programming.md",
+        "assessments/200_oo-design-implementation.md"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Week 1: Unit overview, object oriented principles and mechanisms",
+      "pages": []
+    },
+    {
+      "id": 4,
+      "name": "Week 2: Objects, classes and methods",
+      "pages": []
+    },
+    {
+      "id": 5,
+      "name": "Week 3: Inheritance and polymorphism",
+      "pages": [
+        "week_03/200_workshop.md",
+        "week_03/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Week 4 <<No lecture due to public holiday>>",
+      "pages": [
+        "week_04/200_workshop.md",
+        "week_04/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Week 5: Exception handling",
+      "pages": [
+        "week_05/200_workshop.md",
+        "week_05/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Week 6: Files and streams",
+      "pages": [
+        "week_06/200_workshop.md",
+        "week_06/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Week 7: Design diagrams",
+      "pages": [
+        "week_07/200_workshop.md",
+        "week_07/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Week 8: Design principles",
+      "pages": [
+        "week_08/200_workshop.md",
+        "week_08/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Week 9: Introduction to design patterns",
+      "pages": [
+        "week_09/200_workshop.md",
+        "week_09/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Week 10: <<No lecture due to public holiday>>",
+      "pages": [
+        "week_10/200_workshop.md",
+        "week_10/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Week 11: Catalog of design patterns",
+      "pages": [
+        "week_11/200_workshop.md",
+        "week_11/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Week 12: Design by contract",
+      "pages": [
+        "week_12/200_workshop.md",
+        "week_12/205_workshop_solutions.md"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Week 13: Trends in OOP Technology",
+      "pages": [
+        "week_13/200_workshop.md",
+        "week_13/205_workshop_solutions.md"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "source": "staff_only/chancellor.md"
+    },
+    {
+      "source": "week_03/200_workshop.md"
+    },
+    {
+      "source": "week_03/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_04/200_workshop.md"
+    },
+    {
+      "source": "week_04/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_05/200_workshop.md"
+    },
+    {
+      "source": "week_05/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_06/200_workshop.md"
+    },
+    {
+      "source": "week_06/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_07/200_workshop.md"
+    },
+    {
+      "source": "week_07/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_08/200_workshop.md"
+    },
+    {
+      "source": "week_08/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_09/200_workshop.md"
+    },
+    {
+      "source": "week_09/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_10/200_workshop.md"
+    },
+    {
+      "source": "week_10/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_11/200_workshop.md"
+    },
+    {
+      "source": "week_11/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_12/200_workshop.md"
+    },
+    {
+      "source": "week_12/205_workshop_solutions.md"
+    },
+    {
+      "source": "week_13/200_workshop.md"
+    },
+    {
+      "source": "week_13/205_workshop_solutions.md"
+    },
+    {
+      "source": "assessments/100_oo-programming.md"
+    },
+    {
+      "source": "assessments/200_oo-design-implementation.md"
+    }
+  ]
+}

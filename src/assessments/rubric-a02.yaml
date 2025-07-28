@@ -1,0 +1,200 @@
+title: "IFN584 A02 Rubric"
+free_form_criterion_comments: False
+hide_score_total: False
+criteria:
+
+   - description: Core - Development environment
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of npm, Expo, React Native and a physical/emulated mobile device.
+          points: 3.0
+        - description: Half marks
+          long_description: Use of software/hardware technologies is not entirely appropriate.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+      
+   - description: Core - Core functionality
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate implementation of novel and expected functions for an app of its category. 
+          points: 3.0
+        - description: Half marks
+          long_description: Further work is needed to complete the implementation of some noval/expected functions.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Core - User interface design
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and reasonable user interface design. A components/style library has been used.
+          points: 3.0
+        - description: Half marks
+          long_description: The UI design needs further work. Use of UI frameworks could be better considered.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Core - API integration
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and reasonable use of the REST API. Use of third-party APIs is via the server.
+          points: 3.0
+        - description: Half marks
+          long_description: Implementation problems with the client interacting with the REST API.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+
+   - description: Additional - Device notifications 
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of local notifications. Push notifications are not necessary. Notification features like listens, handles, icons, colours, schedules, have been used.
+          points: 3.0
+        - description: Half marks
+          long_description: Use of local notifications is not entirely appropriate or the implementation needs improving.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Linking
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of deep linking; for both constructing and parsing deep links into your app.
+          points: 3.0
+        - description: Half marks
+          long_description: Use of deep linking is not entirely appropriate or the implementation needs improving.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Gestures
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of gestures. The user experience is sensible, provides feedback and does not impact the performance of the application.
+          points: 3.0
+        - description: Half marks
+          long_description: Use of gestures is not entirely appropriate or the implementation needs improving.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Camera
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of the device cameras.
+          points: 3.0
+        - description: Half marks
+          long_description: Use of device cameras is not entirely appropriate or the implementation needs improving.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Share
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of sharing to other apps. 
+          points: 3.0
+        - description: Half marks
+          long_description: Use of sharing to other apps is not entirely appropriate or the implementation needs improving.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Sensors
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of device sensors as inputs or for collecting meaningful data.
+          points: 3.0
+        - description: Half marks
+          long_description: Use of device sensors is not entirely appropriate or the implementation needs improving.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Status bar
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of the status bar.
+          points: 3.0
+        - description: Half marks
+          long_description: Use of the status bar is not entirely appropriate or the implementation needs improving.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Location services
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate use of location services.
+          points: 3.0
+        - description: Half marks
+          long_description: Use of location services is not entirely appropriate or the implementation needs improving..
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Safe areas
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent and appropriate consideration for safe areas.
+          points: 3.0
+        - description: Half marks
+          long_description: Consideration for safe areas is not entirely appropriate or the implementation needs improving.
+          points: 1.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or no/insufficient evidence presented.
+          points: 0.0
+   
+   - description: Additional - Upon request
+     points: 3.0
+     criterion_use_range: False
+     ratings:
+        - description: Full marks
+          long_description: Competent, appropriate and justified feature/technology that has been approved by the unit coordinator.
+          points: 3.0
+        - description: Half marks
+          long_description: Needs improvements.
+          points: 3.5
+        - description: No marks
+          long_description: Not attempted, completely inappropriate, or insufficient evidence presented. Approval by the unit coordinator not presented.
+          points: 0.0

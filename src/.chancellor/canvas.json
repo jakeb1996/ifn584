@@ -1,0 +1,944 @@
+{
+    "courseId": "22638",
+    "modules": [
+        {
+            "id": 307155,
+            "position": 1,
+            "name": "Overview",
+            "items": [
+                {
+                    "id": 1988555,
+                    "position": 1,
+                    "title": "Welcome",
+                    "type": "Page",
+                    "pageUrl": "welcome",
+                    "indent": 0
+                },
+                {
+                    "id": 1988556,
+                    "position": 2,
+                    "title": "Contact your teaching team",
+                    "type": "Page",
+                    "pageUrl": "contact-your-teaching-team",
+                    "indent": 0
+                },
+                {
+                    "id": 1988557,
+                    "position": 3,
+                    "title": "Communication with peers and staff",
+                    "type": "Page",
+                    "pageUrl": "communication-with-peers-and-staff",
+                    "indent": 0
+                },
+                {
+                    "id": 1988558,
+                    "position": 4,
+                    "title": "Your learning opportunities",
+                    "type": "Page",
+                    "pageUrl": "your-learning-opportunities",
+                    "indent": 0
+                },
+                {
+                    "id": 1988559,
+                    "position": 5,
+                    "title": "Expectations",
+                    "type": "Page",
+                    "pageUrl": "expectations",
+                    "indent": 0
+                },
+                {
+                    "id": 1988560,
+                    "position": 6,
+                    "title": "Technical requirements",
+                    "type": "Page",
+                    "pageUrl": "technical-requirements",
+                    "indent": 0
+                },
+                {
+                    "id": 1988561,
+                    "position": 7,
+                    "title": "Give feedback on your learning experience",
+                    "type": "Page",
+                    "pageUrl": "give-feedback-on-your-learning-experience",
+                    "indent": 0
+                },
+                {
+                    "id": 1988562,
+                    "position": 8,
+                    "title": "Safety and Belonging in the Faculty of Science",
+                    "type": "Page",
+                    "pageUrl": "safety-and-belonging-in-the-faculty-of-science-2",
+                    "indent": 0
+                },
+                {
+                    "id": 1988563,
+                    "position": 9,
+                    "title": "Tips for success",
+                    "type": "Page",
+                    "pageUrl": "tips-for-success",
+                    "indent": 0
+                }
+            ]
+        },
+        {
+            "id": 307156,
+            "position": 2,
+            "name": "About assessments",
+            "items": [
+                {
+                    "id": 2064794,
+                    "position": 1,
+                    "title": "IFN584 Assignment 1 - Object-oriented programming",
+                    "type": "Page",
+                    "pageUrl": "ifn584-assignment-1-object-oriented-programming-2",
+                    "indent": 0,
+                    "chancellorPageSource": "assessments/100_oo-programming.md"
+                },
+                {
+                    "id": 1988564,
+                    "position": 2,
+                    "title": "Assessment overview",
+                    "type": "Page",
+                    "pageUrl": "assessment-overview",
+                    "indent": 1
+                },
+                {
+                    "id": 1988565,
+                    "position": 3,
+                    "title": "Assessment policy - concessions, extensions and academic integrity",
+                    "type": "Page",
+                    "pageUrl": "assessment-policy-concessions-extensions-and-academic-integrity",
+                    "indent": 1
+                },
+                {
+                    "id": 1988566,
+                    "position": 4,
+                    "title": "Assessment 1",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2064797,
+                    "position": 5,
+                    "title": "IFN584 Assignment 1 - Object-oriented programming",
+                    "type": "Page",
+                    "pageUrl": "ifn584-assignment-1-object-oriented-programming-2",
+                    "indent": 1,
+                    "chancellorPageSource": "assessments/100_oo-programming.md"
+                },
+                {
+                    "id": 1988569,
+                    "position": 6,
+                    "title": "Assessment 2",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2064798,
+                    "position": 7,
+                    "title": "IFN584 Assignment 2 - Object-oriented design and implementation",
+                    "type": "Page",
+                    "pageUrl": "ifn584-assignment-2-object-oriented-design-and-implementation-2",
+                    "indent": 1,
+                    "chancellorPageSource": "assessments/200_oo-design-implementation.md"
+                },
+                {
+                    "id": 2064799,
+                    "position": 9,
+                    "title": "IFN584 Assignment 2 - Object-oriented design and implementation",
+                    "type": "Page",
+                    "pageUrl": "ifn584-assignment-2-object-oriented-design-and-implementation-2",
+                    "indent": 0,
+                    "chancellorPageSource": "assessments/200_oo-design-implementation.md"
+                }
+            ],
+            "chancellorModuleId": 2
+        },
+        {
+            "id": 314314,
+            "position": 3,
+            "name": "Week 1: Unit overview, object oriented principles and mechanisms",
+            "items": [
+                {
+                    "id": 2032083,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2061112,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2063782,
+                    "position": 3,
+                    "title": "Lecture recording",
+                    "type": "Page",
+                    "pageUrl": "lecture-recording",
+                    "indent": 0
+                },
+                {
+                    "id": 2032084,
+                    "position": 4,
+                    "title": "Lecture notes (2025S1)",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2032085,
+                    "position": 5,
+                    "title": "Lecture recording: Unit overview (2025S1)",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2032086,
+                    "position": 6,
+                    "title": "Lecture recording: OO principles and mechanisms (2025S1)",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2032087,
+                    "position": 7,
+                    "title": "Lecture recording: Review of OO programming (2025S1)",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2032088,
+                    "position": 8,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2058885,
+                    "position": 9,
+                    "title": "Workshop notes",
+                    "type": "Page",
+                    "pageUrl": "workshop-notes",
+                    "indent": 0
+                },
+                {
+                    "id": 2058887,
+                    "position": 10,
+                    "title": "Workshop solutions",
+                    "type": "Page",
+                    "pageUrl": "workshop-solutions",
+                    "indent": 0
+                },
+                {
+                    "id": 2032089,
+                    "position": 11,
+                    "title": "Workshop notes (2025S1)",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2032090,
+                    "position": 12,
+                    "title": "Workshop solutions (2025S2)",
+                    "type": "File",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 3
+        },
+        {
+            "id": 315814,
+            "position": 4,
+            "name": "Week 2: Objects, classes and methods",
+            "items": [
+                {
+                    "id": 2064029,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2064028,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2064039,
+                    "position": 3,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2064041,
+                    "position": 4,
+                    "title": "Workshop notes",
+                    "type": "Page",
+                    "pageUrl": "workshop-notes-2",
+                    "indent": 0
+                },
+                {
+                    "id": 2064042,
+                    "position": 5,
+                    "title": "Workshop solutions",
+                    "type": "Page",
+                    "pageUrl": "workshop-solutions-2",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 4
+        },
+        {
+            "id": 312974,
+            "position": 5,
+            "name": "Week 3: Inheritance and polymorphism",
+            "items": [
+                {
+                    "id": 2064800,
+                    "position": 0,
+                    "title": "Workshop notes",
+                    "type": "Page",
+                    "pageUrl": "workshop-notes-3",
+                    "indent": 0,
+                    "chancellorPageSource": "week_03/200_workshop.md"
+                },
+                {
+                    "id": 2024380,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2024381,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2024382,
+                    "position": 3,
+                    "title": "Lecture recording: Modularity",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2024383,
+                    "position": 4,
+                    "title": "Lecture recording: Inheritance",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2024384,
+                    "position": 5,
+                    "title": "Lecture recording: Polymorphism",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2024385,
+                    "position": 6,
+                    "title": "Lecture recording: More inheritance mechanisms",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2024386,
+                    "position": 7,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2024387,
+                    "position": 8,
+                    "title": "Workshop notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2024388,
+                    "position": 9,
+                    "title": "Workshop solutions",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2064801,
+                    "position": 10,
+                    "title": "Workshop solutions",
+                    "type": "Page",
+                    "pageUrl": "workshop-solutions-3",
+                    "indent": 0,
+                    "chancellorPageSource": "week_03/205_workshop_solutions.md"
+                }
+            ],
+            "chancellorModuleId": 5
+        },
+        {
+            "id": 319111,
+            "position": 6,
+            "name": "Week 4 <<No lecture due to public holiday>>",
+            "items": [],
+            "chancellorModuleId": 6
+        },
+        {
+            "id": 314517,
+            "position": 7,
+            "name": "Week 5: Exception handling",
+            "items": [
+                {
+                    "id": 2033862,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2033863,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033864,
+                    "position": 3,
+                    "title": "Lecture recording: Error handling",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033865,
+                    "position": 4,
+                    "title": "Lecture recording: Exception handling",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033866,
+                    "position": 5,
+                    "title": "Lecture recording: Custom exception types",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033867,
+                    "position": 6,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2033868,
+                    "position": 7,
+                    "title": "Workshop notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033869,
+                    "position": 8,
+                    "title": "Workshop solutions",
+                    "type": "File",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 7
+        },
+        {
+            "id": 314518,
+            "position": 8,
+            "name": "Week 6: Files and streams",
+            "items": [
+                {
+                    "id": 2033870,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2033871,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033872,
+                    "position": 3,
+                    "title": "Lecture recording: Files and file organisation",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033873,
+                    "position": 4,
+                    "title": "Lecture recording: Streams and sequential access",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033874,
+                    "position": 5,
+                    "title": "Lecture recording: Serialisation and deserialisation",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033875,
+                    "position": 6,
+                    "title": "Lecture recording: Exceptions in file and stream operations",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033876,
+                    "position": 7,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2033877,
+                    "position": 8,
+                    "title": "Workshop notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033878,
+                    "position": 9,
+                    "title": "Workshop solutions",
+                    "type": "File",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 8
+        },
+        {
+            "id": 314519,
+            "position": 9,
+            "name": "Week 7: Design diagrams",
+            "items": [
+                {
+                    "id": 2033879,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2033880,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033881,
+                    "position": 3,
+                    "title": "Lecture recording: Approaches to OO design",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033882,
+                    "position": 4,
+                    "title": "Lecture recording: CRC cards",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033883,
+                    "position": 5,
+                    "title": "Lecture recording: Design diagrams",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033884,
+                    "position": 6,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2033885,
+                    "position": 7,
+                    "title": "Workshop notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2033886,
+                    "position": 8,
+                    "title": "Workshop solutions",
+                    "type": "File",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 9
+        },
+        {
+            "id": 314535,
+            "position": 10,
+            "name": "Week 8: Design principles",
+            "items": [
+                {
+                    "id": 2034012,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034013,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034014,
+                    "position": 3,
+                    "title": "Lecture recording: Software design principles",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034016,
+                    "position": 4,
+                    "title": "Lecture recording: SOLID case study",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034017,
+                    "position": 5,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034018,
+                    "position": 6,
+                    "title": "Workshop notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034019,
+                    "position": 7,
+                    "title": "Workshop solutions",
+                    "type": "File",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 10
+        },
+        {
+            "id": 314538,
+            "position": 12,
+            "name": "Week 9: Introduction to design patterns",
+            "items": [
+                {
+                    "id": 2034026,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034027,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034028,
+                    "position": 3,
+                    "title": "Lecture recording: Introductory design patterns",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034029,
+                    "position": 4,
+                    "title": "Lecture recording: A design case study",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034030,
+                    "position": 5,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034031,
+                    "position": 6,
+                    "title": "Workshop notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034032,
+                    "position": 7,
+                    "title": "Workshop solutions",
+                    "type": "File",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 11
+        },
+        {
+            "id": 314539,
+            "position": 13,
+            "name": "Week 10: <<No lecture due to public holiday>>",
+            "items": [
+                {
+                    "id": 2034033,
+                    "position": 1,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034034,
+                    "position": 2,
+                    "title": "Workshop notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034035,
+                    "position": 3,
+                    "title": "Workshop solutions",
+                    "type": "File",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 12
+        },
+        {
+            "id": 314540,
+            "position": 14,
+            "name": "Week 11: Catalog of design patterns",
+            "items": [
+                {
+                    "id": 2034036,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034037,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034038,
+                    "position": 3,
+                    "title": "Lecture recording: Creational patterns",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034039,
+                    "position": 4,
+                    "title": "Lecture recording: Structural and behavioural patterns",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034040,
+                    "position": 5,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034041,
+                    "position": 6,
+                    "title": "Workshop notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034042,
+                    "position": 7,
+                    "title": "Workshop solutions",
+                    "type": "File",
+                    "indent": 0
+                }
+            ],
+            "chancellorModuleId": 13
+        },
+        {
+            "id": 314541,
+            "position": 15,
+            "name": "Week 12: Design by contract",
+            "items": [
+                {
+                    "id": 2034043,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034044,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034045,
+                    "position": 3,
+                    "title": "Lecture recording: Desgin by contract",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034046,
+                    "position": 4,
+                    "title": "Lecture recording: Subcontracting",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034047,
+                    "position": 5,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034048,
+                    "position": 6,
+                    "title": "The workshops will run as usual, but there will be no specific tasks to complete. Use this last workshop to ask questions or seek feedback on previous workshop exercises or your project.",
+                    "type": "SubHeader",
+                    "indent": 1
+                }
+            ],
+            "chancellorModuleId": 14
+        },
+        {
+            "id": 314548,
+            "position": 16,
+            "name": "Week 13: Trends in OOP Technology",
+            "items": [
+                {
+                    "id": 2034080,
+                    "position": 1,
+                    "title": "Lecture",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034082,
+                    "position": 2,
+                    "title": "Lecture notes",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034083,
+                    "position": 3,
+                    "title": "Lecture recording",
+                    "type": "File",
+                    "indent": 0
+                },
+                {
+                    "id": 2034085,
+                    "position": 4,
+                    "title": "Workshop",
+                    "type": "SubHeader",
+                    "indent": 0
+                },
+                {
+                    "id": 2034087,
+                    "position": 5,
+                    "title": "Project demonstrations during workshops",
+                    "type": "SubHeader",
+                    "indent": 1
+                }
+            ],
+            "chancellorModuleId": 15
+        },
+        {
+            "id": 319628,
+            "position": 17,
+            "name": "Staff Only",
+            "items": [
+                {
+                    "id": 2064786,
+                    "position": 0,
+                    "title": "Some of IFN584 has been deployed with Chancellor",
+                    "type": "Page",
+                    "pageUrl": "some-of-ifn584-has-been-deployed-with-chancellor",
+                    "indent": 0,
+                    "chancellorPageSource": "staff_only/chancellor.md"
+                }
+            ],
+            "chancellorModuleId": 1
+        }
+    ],
+    "pages": [
+        {
+            "images": [],
+            "files": []
+        },
+        {
+            "id": 1987955,
+            "url": "some-of-ifn584-has-been-deployed-with-chancellor",
+            "title": "Some of IFN584 has been deployed with Chancellor",
+            "chancellorPageSource": "staff_only/chancellor.md",
+            "updatedAt": "2025-07-28T02:19:16.000Z"
+        },
+        {
+            "id": 1987975,
+            "url": "ifn584-assignment-1-object-oriented-programming-2",
+            "title": "IFN584 Assignment 1 - Object-oriented programming",
+            "chancellorPageSource": "assessments/100_oo-programming.md",
+            "updatedAt": "2025-07-28T02:43:45.000Z"
+        },
+        {
+            "id": 1987976,
+            "url": "ifn584-assignment-2-object-oriented-design-and-implementation-2",
+            "title": "IFN584 Assignment 2 - Object-oriented design and implementation",
+            "chancellorPageSource": "assessments/200_oo-design-implementation.md",
+            "updatedAt": "2025-07-28T02:40:27.000Z"
+        },
+        {
+            "id": 1987978,
+            "url": "workshop-notes-3",
+            "title": "Workshop notes",
+            "chancellorPageSource": "week_03/200_workshop.md",
+            "updatedAt": "2025-07-28T02:45:34.000Z"
+        },
+        {
+            "id": 1987979,
+            "url": "workshop-solutions-3",
+            "title": "Workshop solutions",
+            "chancellorPageSource": "week_03/205_workshop_solutions.md",
+            "updatedAt": "2025-07-28T02:45:35.000Z"
+        }
+    ]
+}
